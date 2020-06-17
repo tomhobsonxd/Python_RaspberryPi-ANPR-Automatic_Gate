@@ -35,7 +35,7 @@ To install, run:
 `pip install pytesseract`
 
 
-## Uses
+## Useful Information
 
 When setting up the image source with:
 
