@@ -1,1 +1,1 @@
-# Python_RaspberryPi-ANPR-Automatic_Gate
+# Python ANPR using OpenCV
