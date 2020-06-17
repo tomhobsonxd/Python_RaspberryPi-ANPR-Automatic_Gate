@@ -10,5 +10,10 @@ The steps below assume you already have Python installed. I am using Python 3.8 
 
 To begin, run the following:
 
-To install the opencv-python libraries
+To install the opencv-python libraries, run:
+
 `pip install opencv-python`
+
+Then install imutils using,
+
+`pip install imutils`
