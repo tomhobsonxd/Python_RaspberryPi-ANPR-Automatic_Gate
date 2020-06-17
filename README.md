@@ -46,7 +46,7 @@ The function `cv2.VideoCapture()` takes multiple arguments.
 The following arguments can be used:
 - `VideoCapture(0)` uses the deafult camera
 - `VideoCapture(stream:\\ip.address:port)` uses a web stream
-- `VideoCapture("path/to/video/file")`uses a video/motion-jpeg file
+- `VideoCapture("path/to/video/file")` uses a video/motion-jpeg file
 
 Read about it here: [VideoCapture::VideoCapture](https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html#videocapture)
 and here: [VideoCapture()](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#a57c0e81e83e60f36c83027dc2a188e80)
