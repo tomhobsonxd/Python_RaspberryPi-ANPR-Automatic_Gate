@@ -8,4 +8,5 @@ The steps below assume you already have Python installed. I am using Python 3.8 
 
 #### OpenCV-Python & Tesseract
 
-First run: `pip install opencv-python`
+To begin, run the following:
+`pip install opencv-python`
