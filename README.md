@@ -35,3 +35,12 @@ To install, run:
 `pip install pytesseract`
 
 
+## Uses
+
+When setting up the image source with:
+
+`capture = cv2.VideoCapture(0)`
+
+The function `cv2.VideoCapture()` takes multiple arguments.
+
+Read about it here: [VideoCapture::VideoCapture](https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html#videocapture)
