@@ -8,7 +8,7 @@ The steps below assume you already have Python installed. I am using Python 3.8 
 
 #### OpenCV-Python & Tesseract
 
-To begin, run the following:
+##### Open-CV-python
 
 To install the opencv-python libraries, run:
 
@@ -17,3 +17,13 @@ To install the opencv-python libraries, run:
 Then install imutils using,
 
 `pip install imutils`
+
+##### Tesseract & pytesseract
+
+###### Windows
+
+Follow the guide from here: [Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)
+
+###### Linux/MacOS
+
+Follow the guide from here: [Tesseract-OCR](https://github.com/tesseract-ocr/tesseract/wiki)
