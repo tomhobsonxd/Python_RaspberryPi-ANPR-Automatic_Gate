@@ -4,9 +4,28 @@ ANPR (Automatic Number Plate Recognition) using OpenCV (opencv-python) for image
 ***
 ## Installation
 
-The steps below assume you already have Python and `pip` installed. I am using Python 3.8 for this example as it is the most up-to-date at the time of creation.
+### Raspberry Pi
+Use the following to install the initial libraries for opencv-python:
 
-### OpenCV-Python, Tesseract & pytesseract
+`sudo pip3 install opencv-contrib-python`
+
+`sudo apt install libjasper1`
+
+`sudo apt-get install libatlas-base-dev`
+
+`sudo apt-get install libopenexr-dev`
+
+`sudo apt-get install libopenexr-dev`
+
+`sudo apt-get install libgstreamer1.0-dev`
+
+`sudo apt-get install libqtgui4`
+
+`sudo apt install libqt4-test`
+***
+
+### General Installation (IDE)
+The steps below assume you already have Python and `pip` installed. I am using Python 3.8 for this example as it is the most up-to-date at the time of creation.
 ***
 #### Open-CV-python
 
