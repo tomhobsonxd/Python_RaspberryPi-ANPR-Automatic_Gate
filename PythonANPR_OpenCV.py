@@ -10,6 +10,7 @@ import os
 import numpy as np
 import pytesseract
 from datetime import datetime
+from os import path
 screenCnt = None
 
 while True:
@@ -76,7 +77,11 @@ while True:
                 print("Plate '" + p['plate'] + "' is in the database")
                 now = datetime.now()
                 current_time = now.strftime("%H-%M-%S")
-                os.chdir('output/images/')
+                if path.exists("/output/images"):
+                    os.chdir('output/images/')
+                else:
+                    os.makedirs("output/images/")
+                    os.chdir('output/images/')
                 fileName = text + '_-_' + current_time + '.jpg'
                 cv2.imwrite(fileName, img, params=None)
                 exit(0)
