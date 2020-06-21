@@ -29,9 +29,9 @@ The steps below assume you already have Python and `pip` installed. I am using P
 ***
 #### Open-CV-python
 
-To install the opencv-python libraries, run:
+To install the opencv-python libraries, follow this guide:
 
-`pip install opencv-python`
+[Install OpenCV 4 on Raspberry Pi 4 and Raspbian Buster](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/)
 
 Then install imutils using,
 

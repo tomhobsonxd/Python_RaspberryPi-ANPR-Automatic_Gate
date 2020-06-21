@@ -1,5 +1,6 @@
 # ANPR using OpenCV
 # Github - tomhobsonxd
+# Website - http://tahobson.com/
 
 import cv2
 import imutils
@@ -13,10 +14,10 @@ from datetime import datetime
 from os import path
 
 screenCnt = None
+capture = cv2.VideoCapture(0)  # Main source for video/image input. See README for more info.
 
 while True:  # Run the program continuously.
     while screenCnt is None:  # Repeat process while no plate has been detected.
-        capture = cv2.VideoCapture(0)
         _, img = capture.read()
 
         img = cv2.resize(img, (640, 480))
@@ -79,7 +80,7 @@ while True:  # Run the program continuously.
                 print("Plate '" + p['plate'] + "' is in the database")  # Prints out the plate found in the database.
                 now = datetime.now()  # Gets current time
                 current_time = now.strftime("%H-%M-%S")  # Saves current time to string
-                if path.exists("/output/images"):  # Checks for image save path
+                if path.exists("output/images"):  # Checks for image save path
                     os.chdir('output/images/')  # If true, change directory to img output
                 else:
                     os.makedirs("output/images/")  # If false, create the directory
@@ -92,7 +93,7 @@ while True:  # Run the program continuously.
                 # by grabbing more info from the JSON file. i.e. Number of times the vehicle has visited,
                 # when it arrived and left etc..
                 #
-                exit(0)  # Ends program with exit code 0. REMOVE FOR FINAL IMPLEMENTATION!!!
+                # exit(0)  # Ends program with exit code 0. REMOVE FOR FINAL IMPLEMENTATION!!!
 
     # cv2.imshow('Cropped', Cropped)  # Shows the cropped image.
     # cv2.imshow('image', img)  # Shows image with detection.
