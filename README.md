@@ -5,23 +5,9 @@ ANPR (Automatic Number Plate Recognition) using OpenCV (opencv-python) for image
 ## Installation
 
 ### Raspberry Pi
-Use the following to install the initial libraries for opencv-python:
+Use the following to guide to install opencv-python on a raspberry pi:
 
-`sudo pip3 install opencv-contrib-python`
-
-`sudo apt install libjasper1`
-
-`sudo apt-get install libatlas-base-dev`
-
-`sudo apt-get install libopenexr-dev`
-
-`sudo apt-get install libopenexr-dev`
-
-`sudo apt-get install libgstreamer1.0-dev`
-
-`sudo apt-get install libqtgui4`
-
-`sudo apt install libqt4-test`
+[Install OpenCV 4 on Raspberry Pi 4 and Raspbian Buster](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/)
 ***
 
 ### General Installation (IDE)
@@ -29,9 +15,9 @@ The steps below assume you already have Python and `pip` installed. I am using P
 ***
 #### Open-CV-python
 
-To install the opencv-python libraries, follow this guide:
+To install the opencv-python libraries using:
 
-[Install OpenCV 4 on Raspberry Pi 4 and Raspbian Buster](https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/)
+`pip install opencv-python`
 
 Then install imutils using,
 
