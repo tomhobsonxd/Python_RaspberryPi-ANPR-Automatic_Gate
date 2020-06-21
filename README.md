@@ -13,6 +13,7 @@ Use the following to guide to install opencv-python on a raspberry pi:
 ### General Installation (IDE)
 The steps below assume you already have Python and `pip` installed. I am using Python 3.8 for this example as it is the most up-to-date at the time of creation.
 ***
+
 #### Open-CV-python
 
 To install the opencv-python libraries using:
